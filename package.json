@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@ts-morph/bootstrap": "0.8.0",
+    "react": "16.13.1",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "private": true,
+  "workspaces": [
+    "packages/dep",
+    "packages/main"
+  ]
+}

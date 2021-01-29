@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "jsx": "react",
+    "lib": ["es2016"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "es6",
+    "resolveJsonModule": true,
+    "types": []
+  },
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+  ],
+}
